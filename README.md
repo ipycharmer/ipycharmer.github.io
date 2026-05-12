@@ -71,7 +71,7 @@ To change the colour scheme, just update these 5 variables at the top of the `<s
 
 | Repo | Description |
 |---|---|
-| [`student-performance-predictor`](https://github.com/ipycharmer) | End-to-end ML pipeline — Random Forest model predicting exam scores, deployed with Flask |
+| [student-performance-predictor](https://github.com/ipycharmer/student-performance-predictor) | End-to-end ML pipeline — Random Forest model predicting exam scores, deployed with Streamlit cloud |
 
 ---
 
