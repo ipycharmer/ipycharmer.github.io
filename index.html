@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ameer Hamza Nasir — Data & ML Engineer. Building systems that think, see, and decide.">
+<title>HAMZA.lol</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23ffffff' stroke='%230a0a0a' stroke-width='2'/%3E%3Ctext x='50' y='68' font-size='55' font-family='Arial Black, Arial, sans-serif' font-weight='900' text-anchor='middle' fill='%230a0a0a'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<base target="_blank">
+<base target="_blank">
+</head>
+<body>
+
+<div class="venom-cursor" id="venomCursor">
+  <div class="blob"></div>
+  <div class="blob"></div>
+  <div class="blob"></div>
+</div>
+
+<nav class="side-nav" id="sideNav">
+  <a class="nav-dot active" data-section="hero" data-label="Start" href="#hero"></a>
+  <a class="nav-dot" data-section="builder" data-label="Builder" href="#builder"></a>
+  <a class="nav-dot" data-section="neural-stack" data-label="Stack" href="#neural-stack"></a>
+  <a class="nav-dot" data-section="traffic" data-label="Traffic" href="#traffic"></a>
+  <a class="nav-dot" data-section="fraud" data-label="Fraud" href="#fraud"></a>
+  <a class="nav-dot" data-section="deep-learning" data-label="Vision" href="#deep-learning"></a>
+  <a class="nav-dot" data-section="opensource" data-label="Open Source" href="#opensource"></a>
+  <a class="nav-dot" data-section="codeterm" data-label="Terminal" href="#codeterm"></a>
+  <a class="nav-dot" data-section="contact" data-label="Contact" href="#contact"></a>
+</nav>
+
+<div class="smooth-wrapper" id="smoothWrapper">
+
+<section id="hero">
+  <div class="hero-scene" id="heroScene">
+    <p class="hero-eyebrow">Ameer Hamza Nasir — Data & ML Engineer</p>
+    <h1 class="hero-headline display" id="heroHeadline">
+      <span class="line"><span class="line-inner">I Build Systems</span></span>
+      <span class="line"><span class="line-inner">That Think</span></span>
+      <span class="line"><span class="line-inner">See</span></span>
+      <span class="line"><span class="line-inner">And Decide</span></span>
+    </h1>
+    <p class="hero-name" id="heroName">Machine Learning · Computer Vision · FastAPI · Open Source</p>
+    <div class="hero-actions" id="heroActions">
+      <a href="mailto:hamza6700@gmail.com" class="btn btn-primary magnetic">Get in touch →</a>
+      <a href="#builder" class="btn magnetic">Explore work</a>
+    </div>
+  </div>
+</section>
+
+<section id="builder">
+  <p class="builder-label reveal">// The Builder</p>
+  <h2 class="builder-headline display reveal">From Raw Data<br>To Living Systems</h2>
+  <div class="builder-timeline">
+    <div class="timeline-item reveal">
+      <div class="timeline-role">ML Engineer</div>
+      <div class="timeline-desc">I build <strong>end-to-end ML pipelines</strong> — from messy raw datasets through EDA, feature engineering, model training, and deployment. Random Forest, XGBoost, PyTorch. Metrics that matter: R², MAE, F1, AUC-ROC.</div>
+    </div>
+    <div class="timeline-item reveal reveal-d1">
+      <div class="timeline-role">Computer Vision</div>
+      <div class="timeline-desc">Trained <strong>YOLOv5</strong> on Pakistani road footage for real-time vehicle detection. Built CNNs on MNIST hitting <strong>99.1% accuracy</strong>. OpenCV frame processing, object detection, image pipelines.</div>
+    </div>
+    <div class="timeline-item reveal reveal-d2">
+      <div class="timeline-role">FastAPI & Deploy</div>
+      <div class="timeline-desc">Production APIs with <strong>FastAPI</strong>, containerized with <strong>Docker</strong>, deployed on <strong>AWS EC2</strong>. Streamlit dashboards. GitHub Actions CI/CD. REST endpoints that serve models at scale.</div>
+    </div>
+    <div class="timeline-item reveal reveal-d3">
+      <div class="timeline-role">Open Source</div>
+      <div class="timeline-desc">Built <strong>claudecode-free</strong> — a Dockerized proxy routing Claude Code API calls through OpenRouter free-tier LLMs. Node.js reverse proxy with SSE streaming. Eliminated Anthropic billing entirely.</div>
+    </div>
+  </div>
+</section>
+
+<section id="neural-stack" class="overflow-hidden">
+  <div class="orbital-container" id="orbitalContainer">
+    <svg class="orbital-svg" id="orbitalSvg" viewBox="0 0 600 600" preserveAspectRatio="xMidYMid meet">
+    </svg>
+    <div class="orbital-center display">HAMZA</div>
+  </div>
+</section>
+
+<section id="traffic">
+  <div class="traffic-header reveal">
+    <p class="traffic-label">// Project 01</p>
+    <h2 class="traffic-title display">Traffic Intelligence</h2>
+    <p class="traffic-sub">Real-time adaptive traffic signal for a 4-way chowk intersection. Pakistan's standard fixed 120s timer wastes green time on empty roads. YOLOv5 detects vehicles per lane. A Greedy scheduler allocates green time based on live congestion — cars queue at the stop line on red and release when it's their turn.</p>
+  </div>
+  <div class="chowk-photo reveal reveal-d1">
+    <div class="chowk-road chowk-road-v"></div>
+    <div class="chowk-road chowk-road-h"></div>
+    <div class="chowk-dash north"></div>
+    <div class="chowk-dash south"></div>
+    <div class="chowk-dash west"></div>
+    <div class="chowk-dash east"></div>
+    <div class="chowk-crosswalk north"></div>
+    <div class="chowk-crosswalk south"></div>
+    <div class="chowk-crosswalk west"></div>
+    <div class="chowk-crosswalk east"></div>
+    <div class="chowk-stopline north"></div>
+    <div class="chowk-stopline south"></div>
+    <div class="chowk-stopline west"></div>
+    <div class="chowk-stopline east"></div>
+
+    <div class="chowk-lane-h north" data-lane="North">
+      <div class="chowk-queue-wrap north"></div>
+      <div class="chowk-tag north">
+        <span class="chowk-road-label">North Road</span>
+        <span class="chowk-lane-meta"><span class="chowk-lane-label">→ South</span><span class="chowk-score">78%</span></span>
+      </div>
+    </div>
+    <div class="chowk-lane-h south" data-lane="South">
+      <div class="chowk-queue-wrap south"></div>
+      <div class="chowk-tag south">
+        <span class="chowk-road-label">South Road</span>
+        <span class="chowk-lane-meta"><span class="chowk-lane-label">→ North</span><span class="chowk-score">12%</span></span>
+      </div>
+    </div>
+    <div class="chowk-lane-v west" data-lane="West">
+      <div class="chowk-queue-wrap west"></div>
+      <div class="chowk-tag west">
+        <span class="chowk-road-label">West Road</span>
+        <span class="chowk-lane-meta"><span class="chowk-lane-label">→ East</span><span class="chowk-score">54%</span></span>
+      </div>
+    </div>
+    <div class="chowk-lane-v east" data-lane="East">
+      <div class="chowk-queue-wrap east"></div>
+      <div class="chowk-tag east">
+        <span class="chowk-road-label">East Road</span>
+        <span class="chowk-lane-meta"><span class="chowk-lane-label">→ West</span><span class="chowk-score">23%</span></span>
+      </div>
+    </div>
+
+    <div class="chowk-intersection" id="chowkIntersection">
+      <span class="chowk-intersection-label" id="chowkSignal">NS<br>GREEN</span>
+    </div>
+  </div>
+  <div class="traffic-status reveal reveal-d2" id="trafficStatus">
+    Greedy algorithm analyzing congestion scores... <strong>North-South Road</strong> prioritized. East-West Road on red. Empty signal time eliminated.
+  </div>
+</section>
+
+<section id="fraud">
+  <div class="fraud-header reveal">
+    <p class="fraud-label">// Project 02</p>
+    <h2 class="fraud-title display">Fraud Detection</h2>
+    <p class="fraud-sub">End-to-end pipeline on 284,807 credit card transactions. SMOTE oversampling for class imbalance. XGBoost with stratified k-fold cross-validation. Deployed as FastAPI REST endpoint on AWS EC2.</p>
+  </div>
+  <div class="fraud-grid reveal reveal-d1" id="fraudGrid"></div>
+  <div class="fraud-stats">
+    <div class="fraud-stat reveal reveal-d2">
+      <div class="fraud-stat-value">0.91</div>
+      <div class="fraud-stat-label">F1 Score</div>
+    </div>
+    <div class="fraud-stat reveal reveal-d3">
+      <div class="fraud-stat-value">0.98</div>
+      <div class="fraud-stat-label">AUC-ROC</div>
+    </div>
+    <div class="fraud-stat reveal reveal-d4">
+      <div class="fraud-stat-value">284K</div>
+      <div class="fraud-stat-label">Transactions</div>
+    </div>
+  </div>
+</section>
+
+<section id="deep-learning">
+  <div class="dl-header reveal">
+    <p class="dl-label">// Project 03</p>
+    <h2 class="dl-title display">Deep Learning</h2>
+    <p class="dl-sub">CNN built in PyTorch on MNIST — 60,000 training images, 99.1% test accuracy. Draw a digit below.</p>
+  </div>
+  <div class="dl-workspace reveal reveal-d1">
+    <div>
+      <div class="dl-canvas-wrap" id="canvasWrap">
+        <canvas id="dlCanvas" width="280" height="280"></canvas>
+        <div class="dl-canvas-grid"></div>
+      </div>
+      <div class="dl-controls">
+        <button class="btn magnetic" id="clearCanvas">Clear</button>
+        <button class="btn btn-primary magnetic" id="predictBtn">Predict</button>
+      </div>
+    </div>
+    <div class="dl-results">
+      <div class="dl-prediction">
+        <div class="dl-prediction-label">Model</div>
+        <div class="dl-prediction-value" id="dlPredValue">—</div>
+      </div>
+      <div class="dl-confidence" id="dlConfidence"></div>
+    </div>
+  </div>
+</section>
+
+<section id="opensource">
+  <div class="opensource-header reveal">
+    <p class="opensource-label">// Open Source</p>
+    <h2 class="opensource-title display">ClaudeCode-Free</h2>
+    <p class="opensource-sub">Dockerized proxy eliminating Anthropic billing. Routes Claude Code API through OpenRouter free-tier LLMs. Node.js reverse proxy with real-time format translation and SSE streaming.</p>
+  </div>
+  <div class="terminal-window reveal reveal-d1">
+    <div class="terminal-header">
+      <div class="terminal-dot"></div>
+      <div class="terminal-dot"></div>
+      <div class="terminal-dot"></div>
+    </div>
+    <div class="terminal-body" id="terminalBody">
+      <div class="terminal-line"><span class="terminal-prompt">$</span> <span class="terminal-cmd">git clone https://github.com/ipycharmer/claudecode-free.git</span></div>
+      <div class="terminal-line"><span class="terminal-prompt">$</span> <span class="terminal-cmd">cd claudecode-free && docker build -t claudecode .</span></div>
+      <div class="terminal-line"><span class="terminal-prompt">$</span> <span class="terminal-cmd">docker run -p 8080:8080 claudecode</span></div>
+      <div class="terminal-line terminal-success">✓ Proxy Online</div>
+      <div class="terminal-line terminal-success">✓ Translation Active</div>
+      <div class="terminal-line terminal-success">✓ Streaming Ready</div>
+      <div class="terminal-line"><span class="terminal-output">Listening on port 8080...</span><span class="terminal-cursor"></span></div>
+    </div>
+  </div>
+</section>
+
+<section id="codeterm">
+  <div class="codeterm-header reveal">
+    <p class="codeterm-label">// Code</p>
+    <h2 class="codeterm-title display">Under The Hood</h2>
+  </div>
+  <div class="code-showcase reveal reveal-d1">
+    <div class="code-block">
+<pre><code><span class="code-comment"># greedy green-time allocator</span>
+<span class="code-keyword">import</span> heapq
+
+<span class="code-keyword">def</span> <span class="code-func">allocate_green_time</span>(lanes):
+    <span class="code-comment"># max-heap by congestion</span>
+    pq = [(-l[<span class="code-string">'score'</span>], l[<span class="code-string">'id'</span>]) <span class="code-keyword">for</span> l <span class="code-keyword">in</span> lanes]
+    heapq.heapify(pq)
+
+    <span class="code-keyword">while</span> pq:
+        score, lane_id = heapq.heappop(pq)
+        <span class="code-func">set_green</span>(lane_id, duration=<span class="code-num">-score</span> * <span class="code-num">2</span>)</code></pre>
+    </div>
+    <div class="code-block">
+<pre><code><span class="code-comment"># fraud detection pipeline</span>
+<span class="code-keyword">from</span> xgboost <span class="code-keyword">import</span> XGBClassifier
+<span class="code-keyword">from</span> imblearn.over_sampling <span class="code-keyword">import</span> SMOTE
+
+smote = SMOTE(random_state=<span class="code-num">42</span>)
+X_res, y_res = smote.fit_resample(X_train, y_train)
+
+model = XGBClassifier(
+    n_estimators=<span class="code-num">300</span>,
+    max_depth=<span class="code-num">6</span>,
+    learning_rate=<span class="code-num">0.1</span>
+)
+model.fit(X_res, y_res)
+<span class="code-comment"># f1: 0.91 | auc: 0.98</span></code></pre>
+    </div>
+    <div class="code-block">
+<pre><code><span class="code-comment"># mnist cnn in pytorch</span>
+<span class="code-keyword">class</span> <span class="code-func">Net</span>(nn.Module):
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(self):
+        <span class="code-func">super</span>().<span class="code-func">__init__</span>()
+        self.conv1 = nn.Conv2d(<span class="code-num">1</span>, <span class="code-num">32</span>, <span class="code-num">3</span>)
+        self.conv2 = nn.Conv2d(<span class="code-num">32</span>, <span class="code-num">64</span>, <span class="code-num">3</span>)
+        self.fc1 = nn.Linear(<span class="code-num">64*5*5</span>, <span class="code-num">128</span>)
+        self.fc2 = nn.Linear(<span class="code-num">128</span>, <span class="code-num">10</span>)
+
+    <span class="code-keyword">def</span> <span class="code-func">forward</span>(self, x):
+        x = F.relu(F.max_pool2d(
+            self.conv1(x), <span class="code-num">2</span>))
+        <span class="code-keyword">return</span> x</code></pre>
+    </div>
+    <div class="code-block">
+<pre><code><span class="code-comment">// claudecode proxy - node.js</span>
+<span class="code-keyword">const</span> http = require(<span class="code-string">'http'</span>);
+<span class="code-keyword">const</span> proxy = http.createServer((req, res) => {
+  <span class="code-keyword">const</span> body = <span class="code-func">translateFormat</span>(req);
+  <span class="code-func">forwardToOpenRouter</span>(body)
+    .then(data => res.end(data))
+    .catch(err => res.statusCode=<span class="code-num">500</span>);
+});
+
+proxy.listen(<span class="code-num">8080</span>, () => {
+  console.log(<span class="code-string">'Proxy Online'</span>);
+});</code></pre>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <p class="contact-label reveal">// Contact</p>
+  <h2 class="contact-headline display reveal">Let's Build<br><span class="outline">Something.</span></h2>
+  <p class="contact-sub reveal reveal-d1">Open to data analytics internships, ML engineering roles, and freelance projects. I respond fast.</p>
+  <a href="mailto:hamza6700@gmail.com" class="contact-email reveal reveal-d2">hamza6700@gmail.com</a>
+  <div class="contact-socials reveal reveal-d3">
+    <a href="https://github.com/ipycharmer" class="btn btn-primary magnetic">GitHub</a>
+    <a href="https://linkedin.com/in/ipycharmer/" class="btn magnetic">LinkedIn</a>
+    <a href="https://kaggle.com/ameerhamzanasir" class="btn magnetic">Kaggle</a>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Ameer Hamza Nasir</span>
+  <span>Built with precision by ipycharmer</span>
+</footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
